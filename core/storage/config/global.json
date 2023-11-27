@@ -1,0 +1,50 @@
+{
+    "name": "Winamaz Woocommerce",
+    "version": "1.2.5",
+    "author": "Winamaz",
+    "description": "Winamaz(c) Woocommerce Add-on | by ",
+    "path": {
+        "asset": "/core/assets",
+        "view": "/core/view",
+        "migrate": "/core/storage/migrate",
+        "logs": "/core/storage/logs",
+        "temp": "/core/storage/temp",
+        "cache": "/core/storage/cache"
+    },
+    "options": {
+        "ttl": 30,
+        "footprint": true,
+        "debug": true,
+        "multilingual": true,
+        "multisite": true,
+        "view": {
+            "extension": ".tpl.html"
+        }
+    },
+    "ajax": {
+        "admin": [
+            "doCompare"
+        ],
+        "front": [
+            "doCompare"
+        ]
+    },
+    "requirement": {
+        "plugins": [
+            {
+                "slug": "woocommerce",
+                "name": "WooCommerce (v7.x)"
+            }
+        ],
+        "options": [],
+        "templates": [],
+        "modules": [],
+        "php": "7.2.5"
+    },
+    "assets": {},
+    "routes": {},
+    "strings": {
+        "admin": [],
+        "front": []
+    }
+}

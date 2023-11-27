@@ -1,0 +1,138 @@
+# Changelog
+All notable changes to Winamaz WooCommerce (Beta) WordPress Plugin.
+
+--------------------------
+
+## [1.2.5] - 05-03-2023
+
+### Updated
+
+- Plugin Core
+
+### Fixed
+
+- Cache compatibility conflits
+
+--------------------------
+
+## [1.2.2] - 09-12-2022
+
+### Updated
+
+- Plugin Core
+
+--------------------------
+
+## [1.2.1] - 07-12-2022
+
+### Fixed
+
+- Cache compatibility conflits
+- Loading loop when no result
+
+--------------------------
+
+## [1.2.0] - 05-12-2022
+
+### Updated
+
+- Plugin Core 0.9.3
+- WooCommerce ^7.0.0 compatibility
+- Winamaz ^1.2.11 compatibility
+
+--------------------------
+
+## [1.0.0] - 05-01-2022
+
+### Updated
+
+- Plugin Core 0.7.5
+- WooCommerce 6.0.0 compatibility
+
+--------------------------
+
+## [0.1.0] - 25-03-2021
+
+### Updated
+
+- Plugin Core 0.6.8
+
+--------------------------
+
+## [0.0.9] - 15-02-2021
+
+### Fixed
+
+- PHP v7.1 Notice
+
+--------------------------
+
+## [0.0.8] - 05-02-2021
+
+### Updated
+
+- Plugin Core 0.3.7
+- Plugins Directory Constant
+
+--------------------------
+
+## [0.0.7] - 02-02-2021
+
+### Updated
+
+- Plugin Core 0.3.5
+
+--------------------------
+
+## [0.0.6] - 14-01-2021
+
+### Updated
+
+- Plugin Core 0.3.4
+- Licenses Versions
+
+--------------------------
+
+## [0.0.5] - 26-11-2020
+
+### Fixed
+
+- Fixed Incorrect Result Throw Invalid Product ID
+
+--------------------------
+
+## [0.0.4] - 24-11-2020
+
+### Updated
+
+- Plugin core
+
+--------------------------
+
+## [0.0.3] - 07-10-2020
+
+### Updated
+
+- Improve Compatibility With WordPress 5.5.1
+- Update core
+- Replace all front POST requests to GET "admin-ajax.php"
+
+### Fixed
+
+- Fixed Plugin Dynamic Path
+
+--------------------------
+
+## [0.0.2] - 09-05-2020
+
+### Updated
+
+- Update core
+
+--------------------------
+
+## [0.0.1] - 06-05-2020
+
+### Updated
+
+- Init

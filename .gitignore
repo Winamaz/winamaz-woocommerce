@@ -1,0 +1,8 @@
+*.zip
+.vscode
+winamaz-woocommerce
+core/vendor
+core/storage/migrate/migrate.lock
+core/storage/cache
+core/storage/temp
+core/storage/logs

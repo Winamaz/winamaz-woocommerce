@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: winamaz-woocommerce\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+# @ winamaz-woocommerce
+msgid "Implements Winamaz into WooCommerce (Beta)"
+msgstr "Implémentation de Winamaz sur WooCommerce (Beta)"
+
+# @ winamaz-woocommerce
+msgid "Required, Please activate it"
+msgstr "Requis, veuillez l'activer"
+
+# @ winamaz-woocommerce
+msgid "Required, Please install it"
+msgstr "Requis, veuillez l'installer"
+
+# @ winamaz-woocommerce
+msgid "Winamaz required"
+msgstr "Winamaz requis"
+
+# @ winamaz-woocommerce
+msgid "Winamaz version v%s or higher is required"
+msgstr "Winamaz version v%s ou supérieure est requise"
+
+# @ winamaz-woocommerce
+msgid "Winamaz WooCommerce was updated"
+msgstr "Winamaz WooCommerce a été mis à jour"
+
+# @ winamaz-woocommerce
+msgid "Product (Winamaz)"
+msgstr "Produit (Winamaz)"
+
+# @ winamaz-woocommerce
+msgid "Winamaz WooCommerce Add-on"
+msgstr "Winamaz WooCommerce"
+
+# @ winamaz-woocommerce
+msgid "Best price"
+msgstr "Meilleur prix"
+
+# @ winamaz-woocommerce
+msgid "Best Price (WooCommerce)"
+msgstr "Meilleur prix (WooCommerce)"
+
+# @ winamaz-woocommerce
+msgid "Prices list (WooCommerce)"
+msgstr "Comparateur de prix (WooCommerce)"
+
+# @ winamaz-woocommerce
+msgid "Add best price under product price"
+msgstr "Ajouter le meilleur prix sous le prix du produit"
+
+# @ winamaz-woocommerce
+msgid "Add list of other prices under product descrition"
+msgstr "Ajouter la liste des autres prix sous la description du produit"
+
+# @ winamaz-woocommerce
+msgid "Show prices"
+msgstr "Afficher les prix"
+
+# @ winamaz-woocommerce
+msgid "Show"
+msgstr "Vérifier"
+
+# @ winamaz-woocommerce
+msgid "Price search in progress... please wait"
+msgstr "Patientez... Nous cherchons le prix de ce produit sur d'autres sites"
+
+# @ winamaz-woocommerce
+msgid "Updated on"
+msgstr "Mis à jour le"
+
+# @ winamaz-woocommerce
+msgid "Your request has been placed in queue"
+msgstr "La demande est placée en file d'attente"
+
+# @ winamaz-woocommerce
+msgid "Prices will be available soon"
+msgstr "Prix bientôt disponibles"
+
+# @ winamaz-woocommerce
+msgid "Keyword / ASIN / ISBN / EAN / UPC"
+msgstr "Mot-clé / ASIN / ISBN / EAN / UPC"
+
+# @ winamaz-woocommerce
+msgid "Check"
+msgstr "Vérifier"
+
+# @ winamaz-woocommerce
+msgid "Check at"
+msgstr "Vérifier sur"
+
+# @ winamaz-woocommerce
+msgid "Best prices from our partner merchants. Prices do not include shipping or subscription fees"
+msgstr "Meilleur prix relevé chez nos marchands partenaires. Prix hors frais de livraison ou abonnement"

@@ -1,0 +1,9 @@
+{% if not displayPrice is same as(false) %}
+	<div class="winamaz-woocommerce-price">
+		<span class="label">{{translate('Best price')}} *</span>
+		<span class="price">
+			<i class="winamaz-icon-spinner winamaz-loading"></i>
+		</span>
+	</div>
+{% endif %}
+<span class="winamaz-woocommerce-button">{{compareText}}</span>

@@ -1,0 +1,18 @@
+{
+    "name":"bfirst-digital-company/winamaz-woocommerce",
+    "description":"Implements Winamaz into WooCommerce (Add-on)",
+    "type":"wordpress-plugin",
+    "license": "MIT",
+    "config": {
+        "vendor-dir": "core/vendor",
+        "optimize-autoloader": false,
+        "platform-check": false
+    },
+    "require": {
+    	"php": ">=7.2.5",
+        "jakiboy/vanilleplugin":"^0.9.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}

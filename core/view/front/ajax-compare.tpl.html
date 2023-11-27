@@ -1,0 +1,78 @@
+{% for i, merchant in compare %}
+    
+    {% set class = 'winamaz-tooltip' %}
+
+    <div class="winamaz-woocommerce-merchant {{class}}" title="{{merchant.name|capitalize}}">
+        <div class="winamaz-woocommerce-row">
+
+            <div class="winamaz-woocommerce-cell">
+                {% set img = atts.pluginUrl ~ '/core/assets/front/img/' ~ merchant.name ~ '2x.png' %}
+                <img src="{{merchant.image|default(img)}}" width="66" height="22" alt="{{merchant.name}}">
+            </div>
+
+            <div class="winamaz-woocommerce-cell winamaz-woocommerce-label-cell">
+                {% if merchant.price and (merchant.price > 0) %}
+                    {% if ( count > 1 and i == 0 ) %}
+                        <span class="winamaz-label">{{translate('Best price')}}</span>
+                    {% endif %}
+                    {% if (merchant.discount > 0) %}
+                        {% set percent = (100 * merchant.discount) / (merchant.price + merchant.discount) %}
+                        <span class="winamaz-label">
+                            {% if atts.lang == 'en' %}
+                                <strong>{{percent|round}}% Off</strong>
+                            {% else %}
+                                {{translate('Promo')}} <strong>-{{percent|round}}%</strong>
+                            {% endif %}
+                        </span>
+                    {% endif %}
+                {% endif %}
+            </div>
+
+            {% if not atts.displayPrice is same as(false) %}
+                <div class="winamaz-woocommerce-cell">
+                    {% if merchant.price and (merchant.price > 0) %}
+                        {% if merchant.discount %}
+                            {% set discounted = (merchant.discount + merchant.price) %}
+                            {% set price = (discounted - merchant.discount) %}
+                            <span class="winamaz-price">
+                                {{money(price)|raw}} {{atts.currency}}
+                            </span>
+                            <span class="winamaz-discounted">
+                                {{money(discounted)|raw}} {{atts.currency}}
+                            </span>
+                        {% else %}
+                            <span class="winamaz-price">
+                                {{money(merchant.price)|raw}} {{atts.currency}}
+                            </span>
+                        {% endif %}
+                    {% else %}
+                        <span class="winamaz-price">-</span>
+                    {% endif %}
+                </div>
+            {% endif %}
+
+            <div class="winamaz-woocommerce-cell">
+
+                {% set linkTagOpen = '<a href="' ~ merchant.link ~ '" target="_blank" rel="nofollow noopener sponsored">' %}
+                {% set linkTagClose = '</a>' %}
+
+                {% if atts.isCloaking %}
+                    {% set target = encode(merchant.link) %}
+                    {% set target = "openTarget('" ~ target ~ "')" %}
+                    {% set linkTagOpen = '<span onclick="' ~ target ~ '">' %}
+                    {% set linkTagClose = '</span>' %}
+                {% endif %}
+
+                {{linkTagOpen|raw}}
+                {% if merchant.price or atts.displayPrice is same as(false) %}
+                    <span class="winamaz-button">{{atts.buttonText}}</span>
+                {% else %}
+                    <span class="winamaz-button">{{atts.unavailableText}}</span>
+                {% endif %}
+                {{linkTagClose|raw}}
+
+            </div>
+
+        </div>
+    </div>
+{% endfor %}

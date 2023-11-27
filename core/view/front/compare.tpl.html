@@ -1,0 +1,35 @@
+<div class="winamaz-woocommerce-container">
+    {%
+        set atts = {
+            "pluginUrl": pluginUrl,
+            "includeAmazon": false,
+            "lang": lang,
+            "currency": currency,
+            "displayPrice": displayPrice,
+            "displayCompare": displayCompare,
+            "displayUpdate": displayUpdate,
+            "isCloaking": isCloaking,
+            "buttonText": buttonText,
+            "unavailableText": unavailableText
+        }
+    %}
+    <div class="winamaz-woocommerce-wrapper" 
+        data-keyword="{{keyword}}" 
+        data-atts="{{serialize(atts)}}" 
+        data-nonce="{{nonce('token')}}">
+        <div class="winamaz-woocommerce-body">
+            <div class="winamaz-compare" data-preloading="false" data-force="true">
+                <div class="winamaz-loader-wrapper">
+                    <div class="winamaz-message">
+                        <i class="winamaz-icon-spinner winamaz-loading"></i>
+                        <span class="winamaz-string">{{translate('Price search in progress... please wait')}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<p class="winamaz-woocommerce-notice">
+    * {{translate('Best prices from our partner merchants. Prices do not include shipping or subscription fees')}}.
+</p>

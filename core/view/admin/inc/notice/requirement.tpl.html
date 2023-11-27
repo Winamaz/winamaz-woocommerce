@@ -1,0 +1,8 @@
+<div class="winamaz-notice notice notice-error">
+	<p><strong>{{getConfig('name')}}</strong> : 
+		{% if not item is null %}
+			<strong>{{item}}</strong>
+		{% endif %}
+		{{notice}}
+	</p>
+</div>

@@ -1,0 +1,437 @@
+/* Winamaz WooCommerce CSS */
+
+/* ----------------------------- */
+/* price */
+/* ----------------------------- */
+
+.winamaz-woocommerce-container {
+    clear: both;
+}
+
+.winamaz-woocommerce-price {
+    display: inline-block;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    background: #8bc34a;
+    border-bottom: 3px solid #6fa530;
+    font-size: 20px;
+    color: #fff;
+    min-width: 250px;
+    vertical-align: middle;
+    line-height: 30px;
+    height: 37px;
+}
+
+.winamaz-woocommerce-price .label {
+    font-size: 13px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.winamaz-woocommerce-price .price {
+    font-size: 25px !important;
+    line-height: 35px !important;
+    color: #fff !important;
+    float: right;
+    text-shadow: rgba(0, 0, 0, 0.5) 0 1px 1px;
+    vertical-align: middle;
+}
+
+.winamaz-woocommerce-price a {
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+.winamaz-woocommerce-price img {
+    margin: 0 !important;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.winamaz-woocommerce-price .winamaz-loading:before {
+    content: "\e902";
+}
+
+.winamaz-woocommerce-button {
+    display: none;
+    width: 150px;
+    height: 30px;
+    font-size: 13px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #f1b10f;
+    border-bottom: 3px solid #f39c11;
+    text-shadow: rgba(0, 0, 0, 0.5) 0 1px 1px;
+    cursor: pointer;
+}
+
+.winamaz-woocommerce-container .winamaz-list-compare {
+    margin-bottom: 15px;
+    padding-bottom: 0px;
+    font-size: 15px;
+    line-height: 15px;
+    width: 100%;
+}
+
+.winamaz-woocommerce-container .winamaz-list-compare .winamaz-list-merchant {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    padding: 5px 0;
+}
+
+.winamaz-woocommerce-container .winamaz-list-compare .winamaz-list-merchant:hover {
+    border-color: #c3c3c3;
+}
+
+.winamaz-woocommerce-container .winamaz-list-compare .winamaz-list-merchant:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.winamaz-woocommerce-container .winamaz-list-compare .winamaz-list-merchant:first-child .price,
+.winamaz-woocommerce-container .winamaz-list-compare .winamaz-list-merchant:first-child .currency {
+    color: #8bc34a !important;
+}
+
+.winamaz-woocommerce-container .winamaz-list-compare .winamaz-col {
+    text-align: center;
+}
+
+.winamaz-woocommerce-container .winamaz-list-compare .update {
+    font-size: 11px;
+}
+
+.winamaz-woocommerce-container .winamaz-list-compare .price,
+.winamaz-woocommerce-container .winamaz-list-compare .currency {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000 !important;
+}
+
+.winamaz-woocommerce-container .winamaz-list-compare a {
+    text-decoration: none !important;
+}
+
+.winamaz-woocommerce-container .winamaz-list-compare .button {
+    min-width: 100px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #f1b10f;
+    border-bottom: 3px solid #f39c11;
+    text-shadow: rgba(0, 0, 0, 0.5) 0 1px 1px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+    .winamaz-woocommerce-container .winamaz-list-compare .winamaz-list-merchant {
+        margin-bottom: 10px;
+    }
+}
+
+/* ----------------------------- */
+/* container */
+/* ----------------------------- */
+.winamaz-woocommerce-container {
+    flex: 0 1 auto;
+    gap: 10px;
+    flex-flow: row;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.winamaz-woocommerce-container.winamaz-left-align {
+    flex-flow: row-reverse;
+}
+
+.winamaz-woocommerce-container.winamaz-center-align {
+    flex-direction: column;
+}
+
+/* ----------------------------- */
+/* wrapper */
+/* ----------------------------- */
+.winamaz-woocommerce-wrapper {
+    flex: 1 0 auto;
+}
+
+.winamaz-woocommerce-container.winamaz-center-align .winamaz-woocommerce-wrapper {
+    width: 100%;
+}
+
+/* ----------------------------- */
+/* title */
+/* ----------------------------- */
+.winamaz-woocommerce-title {
+    margin-bottom: 5px;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+/* ----------------------------- */
+/* content */
+/* ----------------------------- */
+.winamaz-woocommerce-content {
+    margin-bottom: 10px;
+}
+
+/* ----------------------------- */
+/* header */
+/* ----------------------------- */
+.winamaz-woocommerce-header .winamaz-woocommerce-row {
+    flex: 0 1 auto;
+    flex-flow: row wrap;
+    display: flex;
+}
+
+.winamaz-woocommerce-header .winamaz-woocommerce-cell {
+    flex: 1 0 25%;
+}
+
+.winamaz-woocommerce-header {
+    padding: 5px 0;
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.winamaz-woocommerce-header .promo-label {
+    display: none;
+}
+
+/* ----------------------------- */
+/* body */
+/* ----------------------------- */
+.winamaz-woocommerce-body {
+    /* margin-bottom: 10px; */
+    min-height: 55px;
+}
+
+.winamaz-woocommerce-body .winamaz-woocommerce-cell {
+    flex: 1 0 20%;
+}
+
+.winamaz-woocommerce-body .winamaz-woocommerce-row {
+    flex: 0 1 auto;
+    flex-flow: row;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----------------------------- */
+/* footer */
+/* ----------------------------- */
+.winamaz-woocommerce-footer .winamaz-woocommerce-row {
+    flex: 0 1 auto;
+    flex-flow: row;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.winamaz-woocommerce-footer .winamaz-woocommerce-cell {
+    flex: 1 0 50%;
+}
+
+/* ----------------------------- */
+/* side */
+/* ----------------------------- */
+.winamaz-woocommerce-container .winamaz-woocommerce-side-wrapper {
+    flex: 1 0 0;
+}
+
+/* ----------------------------- */
+/* image */
+/* ----------------------------- */
+.winamaz-woocommerce-container .winamaz-image-wrapper img {
+    max-width: 500px;
+}
+
+.winamaz-woocommerce-container.winamaz-center-align .winamaz-image-wrapper {
+    margin: 0;
+}
+
+/* ----------------------------- */
+/* compare */
+/* ----------------------------- */
+.winamaz-woocommerce-container .winamaz-product-wrapper img {
+    display: inline-block;
+    user-select: none;
+    -webkit-user-drag: none;
+    vertical-align: middle;
+    height: 22px;
+    width: 66px;
+    max-width: 100%;
+    border-radius: 0;
+}
+
+.winamaz-woocommerce-container .winamaz-button {
+    min-width: 100px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #f1b10f;
+    border-bottom: 3px solid #f39c11;
+    text-shadow: rgb(0 0 0 / 50%) 0 1px 1px;
+    cursor: pointer;
+}
+
+.winamaz-woocommerce-container .winamaz-button:hover {
+    opacity: 0.8;
+}
+
+.winamaz-woocommerce-container .winamaz-price {
+    font-size: 20px;
+    color: #000;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.winamaz-woocommerce-container .winamaz-currency {
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.winamaz-woocommerce-container .winamaz-discounted {
+    font-size: 14px;
+    line-height: 15px;
+    text-decoration: line-through;
+    text-decoration-color: #a3a3a3;
+    display: block;
+}
+
+.winamaz-woocommerce-container .winamaz-label {
+    display: inline-block;
+    background: #2fcd72;
+    color: #fff;
+    padding: 3px;
+    font-size: 11px;
+    line-height: 12px;
+    min-width: 70px;
+}
+
+.winamaz-woocommerce-merchant {
+    padding: 5px 5px;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.winamaz-woocommerce-merchant.hidden-merchant {
+    display: none;
+}
+
+.winamaz-woocommerce-merchant:first-child {
+    background: rgba(76, 175, 80, 0.12);
+    border: 0;
+}
+
+.winamaz-woocommerce-wrapper .winamaz-message {
+    background: #fbfbfb;
+    padding: 8px;
+}
+
+/* ----------------------------- */
+/* message */
+/* ----------------------------- */
+.winamaz-woocommerce-notice {
+    font-size: 11px;
+    text-align: center;
+}
+
+/* ----------------------------- */
+/* woocommerce */
+/* ----------------------------- */
+.woocommerce .product .price {
+    margin: 0;
+}
+
+/* ----------------------------- */
+/* media (reset) */
+/* ----------------------------- */
+@media only screen and (max-width: 800px) {
+    .winamaz-woocommerce-container.winamaz-left-align {
+        flex-flow: column;
+    }
+
+    .winamaz-woocommerce-header .winamaz-woocommerce-label-cell {
+        display: none;
+    }
+
+    .winamaz-woocommerce-body .winamaz-woocommerce-label-cell {
+        display: none;
+    }
+
+    .winamaz-woocommerce-container {
+        flex-flow: column;
+    }
+
+    .winamaz-woocommerce-wrapper {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .winamaz-woocommerce-container .winamaz-image-wrapper img {
+        max-width: 100%;
+    }
+
+    .winamaz-woocommerce-body .winamaz-woocommerce-row {
+        flex-flow: column;
+    }
+
+    .winamaz-woocommerce-footer .winamaz-woocommerce-row {
+        flex-flow: column;
+    }
+
+    .winamaz-woocommerce-header {
+        display: none;
+    }
+
+    .winamaz-woocommerce-body .winamaz-woocommerce-cell {
+        margin-bottom: 10px;
+    }
+
+    .winamaz-woocommerce-merchant {
+        border: 1px solid #f6f6f6;
+        margin-bottom: 5px;
+    }
+
+    .winamaz-woocommerce-container .winamaz-button {
+        min-width: 120px;
+    }
+}

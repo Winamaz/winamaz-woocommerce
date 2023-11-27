@@ -1,0 +1,11 @@
+{
+  "admin": {},
+  "front": {
+    "request": {
+      "error": "An error has occurred",
+      "soon": "Prices will be available soon",
+      "inqueue": "Your request has been placed in queue",
+      "unavailable": "Unavailable"
+    }
+  }
+}
